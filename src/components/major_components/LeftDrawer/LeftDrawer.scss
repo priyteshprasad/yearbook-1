@@ -1,0 +1,13 @@
+.left_drawer_container{
+    height: 100%;
+    
+    border: 1px solid red;
+    background-color: #ccc;
+    transition: width 0.3s ease-in-out;
+}
+.open{
+    width: 300px;
+}
+.close{
+    width: 80px;
+}

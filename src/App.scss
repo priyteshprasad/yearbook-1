@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center;*/
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.light{
+  --bg-color: white;
+  --text-color: rgb(33, 29, 29);
+  --headings-color: black;
+}
+.dark{
+  --bg-color: rgb(182, 182, 182);
+  --text-color: white;
+  --headings-color: rgb(133, 131, 131);
 }
